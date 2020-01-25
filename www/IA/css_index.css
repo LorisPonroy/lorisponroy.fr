@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'jackinput'; /*a name to be used later*/
+    src: url('jackinput.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'unispace'; /*a name to be used later*/
+    src: url('unispace.ttf'); /*URL to font*/
+}
+p{
+  color:white;
+}

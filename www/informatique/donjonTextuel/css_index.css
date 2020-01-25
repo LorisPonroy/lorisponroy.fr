@@ -1,0 +1,171 @@
+h1{
+	color: #3152a3;
+	text-align: center;
+}
+h4{
+	font-family: cursive;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#sous_titre{
+	color: #ff4d4d;
+	font-weight: bold;
+	font-size: 100%;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #ff4d4d;
+}
+p{
+	font-family: cursive;
+	text-align: center;
+	margin: 5vw;
+}
+pre{
+	height: 89%;
+	width: 100%
+	margin: 0;
+	color: white;
+	text-align: left;
+}
+#ConteneurJeu{
+	width: 80vw;
+	height: 40vw;
+	margin: auto;
+	font-size: 1vw;
+	text-align: center;
+	display: flex;
+	font-family: cursive;
+}
+#ConsolesHautes{
+	display: flex;
+	width: 100%;
+	height: 50%;
+}
+@font-face {
+  font-family: "mapFont";
+  src: url(mapFont.ttf);
+}
+#MapConsole{
+	margin: 0.25vw;
+	width: 50%;
+	height: 90%;
+	background-color: black;
+}
+#MenuConsole{
+	margin: 0.25vw;
+	width: 50%;
+	height: 90%;
+	background-color: black;
+}
+#InventoryConsole{
+	margin: 0.25vw;
+	width: 33.33%;
+	height: 100%;
+	background-color: black;
+}
+#GameConsole{
+	margin: 0.25vw;
+	width: 99%;
+	height: 50%;
+	background-color: black;
+}
+textarea{
+	height: 4%;
+	width: 100%;
+	background-color: #f2f2f2;
+	border: solid 0.15vw black;
+	resize: none;
+	font-size: 100%;
+	overflow: hidden;
+}
+#GameConsoleInput{
+	width: 99.1%;
+}
+#MapConsoleOutput{
+	font-family: "mapFont";
+	text-align: left;
+}
+#Boutons{
+	text-align: center;
+	height: auto;
+	/*border: solid 0.15vw red;*/
+	display: flex;
+	margin-left: 1vw;
+}
+button{
+	font-size: 1vw;
+	text-align: center;
+	height: 3vw;
+	width: 3vw;
+	margin: auto;
+}
+span{
+	margin: auto;
+}
+#Up{
+	width: auto;
+	height: auto;
+}
+#Left{
+	width: auto;
+	height: auto;
+}
+#Right{
+	width: auto;
+	height: auto;
+}
+#Down{
+	width: auto;
+	height: auto;
+}
+#Attak{
+	margin-right: : 1vw;
+	font-size: 2vw;
+}
+#Flee{
+	margin-left: 1vw;
+}
+#ChangeWeapon{
+	font-size: 1.5vw;
+	width: auto;
+	height: auto;
+}
+#UsePotion{
+	font-size: 1.5vw;
+	width: auto;
+	height: auto;
+}
+#UseLoot{
+	font-size: 1.5vw;
+	width: auto;
+	height: auto;
+}
+
+
+
+
+
+
+.infobulle {
+  position: relative;  /* les .infobulle deviennent référents */
+  cursor: help;
+}
+
+/* on génère un élément :after lors du survol et du focus :*/
+
+.infobulle:hover::after,
+.infobulle:focus::after {
+  content: attr(aria-label);  /* on affiche aria-label */
+  position: absolute;
+  top: -2.4em;
+  left: 50%;
+  transform: translateX(-50%); /* on centre horizontalement  */
+  z-index: 1; /* pour s'afficher au dessus des éléments en position relative */
+  white-space: nowrap;  /* on interdit le retour à la ligne */
+   background-color: #e67300;
+   font-family: cursive;
+   padding: 0.25vw;
+   border: solid 0.1vw #663300;
+   border-radius: 10px;
+}

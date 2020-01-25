@@ -1,0 +1,32 @@
+html{
+	background: url(BackgroundRecentre.jpg) no-repeat center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	margin: 0 0;
+
+}
+body{
+	text-align: center;
+}
+h1{
+	color: #3152a3;
+	text-align: center;
+}
+h4{
+	font-family: cursive;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#sous_titre{
+	color: #ff4d4d;
+	font-weight: bold;
+	font-size: 100%;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #ff4d4d;
+}
+p{
+	text-align: center;
+	font-family: cursive;
+}

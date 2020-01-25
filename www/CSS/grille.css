@@ -1,0 +1,39 @@
+a img{
+  height: 25vw;
+  width: 25vw;
+}
+#ligne{
+  display: flex;
+  text-align: center;
+  margin: 1vw;
+}
+.elem{
+  margin: 3vw;
+}
+.elem .divText{
+	height: 25vw;
+	width: 25vw;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'unispace';
+	font-size: 2vw;
+	margin: ;
+	position: absolute;
+	color: rgba(0,0,0,1);
+	z-index: -1;
+}
+
+.elem img:hover{
+	animation-duration: 1s;
+	animation-name: animCase;
+	opacity: 0.2;
+}
+@keyframes animCase {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.2;
+  }
+}

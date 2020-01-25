@@ -1,0 +1,20 @@
+.glob{
+	margin-top: 10%;
+	height: 300px;
+	width: 100%;
+	/*border : 10px solid;*/
+	text-align: center;
+}
+
+img{
+	height: auto;
+	width: 25vw;
+}
+#ligne{
+	display: flex;
+	text-align: center;
+	margin: 1vw;
+}
+.elem{
+	margin: 3vw;
+}

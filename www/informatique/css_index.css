@@ -1,0 +1,12 @@
+img{
+  height: auto;
+  width: 25vw;
+}
+#ligne{
+  display: flex;
+  text-align: center;
+  margin: 1vw;
+}
+.elem{
+  margin: 3vw;
+}
