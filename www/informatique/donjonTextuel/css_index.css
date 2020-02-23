@@ -23,7 +23,7 @@ p{
 }
 pre{
 	height: 89%;
-	width: 100%
+	width: 100%;
 	margin: 0;
 	color: white;
 	text-align: left;
@@ -84,6 +84,7 @@ textarea{
 }
 #MapConsoleOutput{
 	font-family: "mapFont";
+	font-size: 10px;
 	text-align: left;
 }
 #Boutons{
@@ -120,7 +121,7 @@ span{
 	height: auto;
 }
 #Attak{
-	margin-right: : 1vw;
+	margin-right: 1vw;
 	font-size: 2vw;
 }
 #Flee{
@@ -168,4 +169,39 @@ span{
    padding: 0.25vw;
    border: solid 0.1vw #663300;
    border-radius: 10px;
+}
+
+.inventoryButton{
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+.menuButton{
+	width: auto;
+	height: auto;
+	padding: 1%;
+	margin: 1%;
+}
+.yesButton{
+	width: auto;
+	height: auto;
+	padding: 1%;
+	margin: 1%;
+	background-color: green;
+}
+.noButton{
+	width: auto;
+	height: auto;
+	padding: 1%;
+	margin: 1%;
+	background-color: red;
+}
+
+.dialog{
+	font-weight: bold;
+	color: goldenrod;
+}
+.naration{
+	font-style: italic;
+	margin-right: 50px;
 }

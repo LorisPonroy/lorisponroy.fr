@@ -7,13 +7,13 @@
 	<link rel="icon" type="image/png" href="icones/icone_LP.png" />
   <link href="http://lorisponroy.fr/CSS/darktheme.css" rel="stylesheet">
   <link href="http://lorisponroy.fr/CSS/grille.css" rel="stylesheet">
+    <link href="http://lorisponroy.fr/CSS/css_bandeau.css" rel="stylesheet">
 
 </head>
 <body>
-	<header>
-    <iframe src="http://lorisponroy.fr/bandeau.html" align="top" frameborder="0" marginheight="0" marginwidth="0" style="margin: -0.5vw -0vw -0.5vw -0.5vw;width: 100vw;height: 8vw;"></iframe>
-    <img src="../icones/bandeau_v2.png" align="top" style="margin: 0.5vw 0vw -0vw -0.5vw;width: 100vw" />
-  </header>
+    <header>
+    <?php include ('../bandeau.html')?>
+    </header>
 	<h1>Mes projets d'IA</h1>
 	<h5 id="sous_titre">__________________________</h5>
 	<br/>

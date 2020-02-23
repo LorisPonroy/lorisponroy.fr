@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'jackinput'; /*a name to be used later*/
-    src: url('jackinput.ttf'); /*URL to font*/
+    src: url('../jackinput.ttf'); /*URL to font*/
 }
 @font-face {
     font-family: 'unispace'; /*a name to be used later*/
-    src: url('unispace.ttf'); /*URL to font*/
+    src: url('../unispace.ttf'); /*URL to font*/
 }
 html{
-	background: url(BackgroundRecentre.jpg) no-repeat center fixed;
+	/*background: url(BackgroundRecentre.jpg) no-repeat center fixed;*/
 	background-size: cover;
 	-webkit-background-size: cover;
 	margin: 0 0;
@@ -15,9 +15,9 @@ html{
   color: grey;
 
 }
-::-webkit-scrollbar {
-    display: none;
-}
+/*::-webkit-scrollbar {*/
+/*    !*display: none;*!*/
+/*}*/
 h1{
 	font-family: 'unispace';
 	color: #5d574c;
@@ -37,7 +37,7 @@ h1{
 }
 p{
 	text-align: center;
-	font-family: 'jackinput'
+	font-family: 'jackinput';
   color: grey;
 }
 a{
@@ -90,12 +90,12 @@ a{
 }
 @keyframes animDroite {
   from {
-    margin-right: : 100%;
+    margin-right: 100%;
     width: 300%; 
   }
 
   to {
-    margin-right: : 0%;
+    margin-right: 0%;
     width: 100%;
   }
 }

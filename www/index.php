@@ -6,15 +6,15 @@
 	<title>Loris Ponroy</title>
 	<link href="css_index.css" rel="stylesheet">
 	<link href="http://lorisponroy.fr/CSS/darktheme.css" rel="stylesheet">
+    <link href="http://lorisponroy.fr/CSS/css_bandeau.css" rel="stylesheet">
 	<link rel="icon" type="image/png" href="icones/icone_LP.png" />
 </head>
 <body>
-	<header>
-		<iframe src="bandeau.html" align="top" frameborder="0" marginheight="0" marginwidth="0" style="margin: -0.5vw -0vw -0.5vw -0.5vw;width: 100vw;height: 8vw;"></iframe>
-		<img src="icones/bandeau_v2.png" align="top" style="margin: 0.5vw 0vw -0vw -0.5vw;width: 100vw" />
-	</header>
+    <header>
+        <?php include ('bandeau.html')?>
+    </header>
 <h1>Bienvenue sur mon site personnel</h1>
-<h5 id="sous_titre">__________________________</h1>
+<h5 id="sous_titre">__________________________</h5>
 <p>Vous retrouverez ici mes photos, ainsi que mes projets informatiques et d'intelligence artificielle.</p>
 </body>
 </html>

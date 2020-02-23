@@ -5,16 +5,16 @@
 	<title>Loris Ponroy</title>
 	<link href="http://lorisponroy.fr/CSS/darktheme.css" rel="stylesheet">
 	<link rel="icon" type="image/png" href="../icones/icone_LP.png" />
+    <link href="http://lorisponroy.fr/CSS/css_bandeau.css" rel="stylesheet">
 </head>
 <body">
-	<header>
-		<iframe src="http://lorisponroy.fr/bandeau.html" align="top" frameborder="0" marginheight="0" marginwidth="0" style="margin: -0.5vw -0vw -0.5vw -0.5vw;width: 100vw;height: 8vw;"></iframe>
-		<img src="../icones/bandeau_v2.png" align="top" style="margin: 0.5vw 0vw -0vw -0.5vw;width: 100vw" />
-	</header>
+    <header>
+        <?php include ('../bandeau.html')?>
+    </header>
 	<h1>Curriculum vitæ</h1>
-	<h5 id="sous_titre">__________________________</h1>
+	<h5 id="sous_titre">__________________________</h5>
 		<div style="position: fixed;right: 0;">
-			<div class="bouton" style="float: right;"><a href="../apropos/index.html" style="padding: 5px;">Obtenir plus de détails</a></div><br/>
+			<div class="bouton" style="float: right;"><a href="../apropos/index.php" style="padding: 5px;">Obtenir plus de détails</a></div><br/>
 			<div class="bouton" style="float: right;"><a href="CV.pdf" target="_blank" style="padding: 5px;">Télécharger en PDF</a></div>
 		</div>
 	<div style="text-align: center;">

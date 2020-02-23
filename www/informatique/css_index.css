@@ -1,12 +1,11 @@
-img{
-  height: auto;
-  width: 25vw;
+@font-face {
+  font-family: 'jackinput'; /*a name to be used later*/
+  src: url('../jackinput.ttf'); /*URL to font*/
 }
-#ligne{
-  display: flex;
-  text-align: center;
-  margin: 1vw;
+@font-face {
+  font-family: 'unispace'; /*a name to be used later*/
+  src: url('../unispace.ttf'); /*URL to font*/
 }
-.elem{
-  margin: 3vw;
+p{
+  color:white;
 }
